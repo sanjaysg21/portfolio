@@ -1,0 +1,167 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: #F2EBE9;
+    margin: 0;
+}
+.container{
+    background-color: #73777B;
+    width: 1535px;
+    height: 40px;
+}
+.top{
+    top:0px;
+    left: 980px;
+    margin-top: 10px;
+    position: absolute;
+}
+.fir{
+    border-radius: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    border: none;
+    color: whitesmoke;
+    background-color: #180A0A;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size:smaller;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+button{
+    border-radius: 12px;
+}
+.sec{
+    color: whitesmoke;
+    font-weight: bolder;
+    text-align: center;
+    border: none;
+    background-color: black;
+    font-size: smaller;
+    margin-left: 30px;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+.thi{
+    font-weight: bolder;
+    text-align: center;
+    border: none;
+    color: whitesmoke;
+    background-color: black;
+    font-size:smaller;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+.for{
+    font-weight: bolder;
+    text-align: center;
+    border: none;
+    color: whitesmoke;
+    background-color: black;
+    font-size:smaller;
+    margin-left: 50px;
+    transition: 0.5s;
+}
+  button:after {
+    content: '»';
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  .edu{
+    width: 8%;
+    padding-right: 20px;
+    padding-left: 40px;
+    float: left;
+  }
+  .eduh{
+    color: grey;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+  }
+  .items{
+    font-family: cursive;
+    font-size: large;
+  }
+  .bod{
+    width: 10%;
+    float: right;
+    padding-right: 20px;
+  }
+  .bb{
+    font-family: cursive;
+    font-size: large;
+    padding-left: 180px;
+  }
+  .gym{
+    padding-left: 180px;
+    color: grey;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+
+  }
+  hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    height: 0px;
+    width: 10%;
+}
+.hob{
+  width: 8%;
+  float: left;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 10px;
+}
+.hb{
+  padding-left: 180px;
+  font-family: cursive;
+  font-size: large;
+  padding-right: 10px;
+}
+.h{
+  color: grey;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    padding-left: 180px;
+
+}
+.para{
+  color: whitesmoke ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.food{
+  float:right;
+  width: 8%;
+  padding-right: 20px;
+}
+.ff{
+  padding-left: 180px;
+  font-family: cursive;
+  font-size: large;
+
+}
+.f{
+  color: grey;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  padding-top: 20px;
+  padding-left: 180px;
+
+}
